@@ -12,10 +12,10 @@ if (!isNaN(cantidadCamisas) && !isNaN(precioPorCamisa)) {
     var descuento;
 
     if (cantidadCamisas >= 3) {
-        // Aplicar un descuento del 20% si se compran 3 o más camisas
+       
         descuento = totalSinDescuento * 0.20;
     } else {
-        // Aplicar un descuento del 10% si se compran menos de 3 camisas
+        
         descuento = totalSinDescuento * 0.10;
     }
 
