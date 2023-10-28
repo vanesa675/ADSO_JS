@@ -7,7 +7,7 @@ Dia 4 Jueves, Dia 5 Viernes, Dia 6 Sabado, Dia 7 Domingo,
  ESCRIBIO UN NUMERO FUERA DEL RANGO
  ESCRIBA UN NUMERO DE 1 Y 7*/
 
- var numero = parseInt(prompt("Ingrese un número del 1 al 7:"));
+ /*var numero = parseInt(prompt("Ingrese un número del 1 al 7:"));
 
 switch (numero) {
     case 1:
@@ -29,10 +29,47 @@ switch (numero) {
         alert("Dia 6: Sábado");
         break;
     case 7:
-        alert("Dia 7: Domingo");
+        alert("Dia 7: Domingo");+
         break;
     default:
         alert("Ha ingresado un número fuera del rango. Por favor, escriba un número del 1 al 7.");
-}
+    }*/
+
+    let num=parseInt(prompt("ingrese un numero del 1 al 7"));
+
+    if (num == 1){
+    
+    alert("el dia es lunes");
+
+    } else if (num == 2){
+
+        alert("el dia es martes");
+
+    }else if (num == 3){
+
+        alert("el dia es miercoles");
+    
+    }else if (num == 4){
+
+        alert("el dia es jueves");
+
+    } else if (num == 5){
+
+        alert("el dia es viernes");
+
+    }else if (num == 6){
+
+        alert("el dia es sabado");
+
+    }else if (num == 7){
+
+        alert("el dia es domingo");
+
+    } else {
+
+        alert ("numero fuera de rango")
+    }
+
+
 
 

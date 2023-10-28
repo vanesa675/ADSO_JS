@@ -8,7 +8,7 @@ var edad1 = parseInt(prompt("Ingrese la edad de la primera persona:"));
 var nombre2 = prompt("Ingrese el nombre de la segunda persona:");
 var edad2 = parseInt(prompt("Ingrese la edad de la segunda persona:"));
 
-if (!isNaN(edad1) && !isNaN(edad2)) {
+if (!(edad1) && (edad2)) {
     if (edad1 > edad2) {
         alert(nombre1 + " es mayor en edad que " + nombre2 + ".");
     } else if (edad1 < edad2) {
@@ -20,4 +20,4 @@ if (!isNaN(edad1) && !isNaN(edad2)) {
     alert("Por favor, ingrese edades válidas.");
 }
 
-
+co
